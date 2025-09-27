@@ -1,0 +1,30 @@
+# Configuration du site
+title: "Dénonciation Odeurs de Fumée"
+description: "Témoignages et signalements des problèmes d'odeurs de fumée à proximité du bois de Vincennes."
+url: "https://ludovicl.github.io/temoignages-odeurs-fumees"
+baseurl: ""
+locale: "fr-FR"
+
+# Thème
+remote_theme: "mmistakes/minimal-mistakes"
+minimal_mistakes_skin: "default"
+
+# Plugins
+plugins:
+  - jekyll-remote-theme
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+
+# Auteur
+author:
+  name: "Collectif Odeurs de Fumée"
+  email: "odeurs.fumees@gmail.com"
+  bio: "Signalement des nuisances olfactives à proximité du bois de Vincennes, Paris, Joinville-le-Pont, Nogent-sur-Marne."
+
+# Navigation
+header_pages:
+  - index.md
+  - temoignages.md
+  - contact.md
