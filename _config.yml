@@ -1,8 +1,8 @@
 # Configuration du site
 title: "Dénonciation Odeurs de Fumée"
 description: "Témoignages et signalements des problèmes d'odeurs de fumée à proximité du bois de Vincennes."
-url: "https://ludovicl.github.io/temoignages-odeurs-fumees"
-baseurl: ""
+url: "https://ludovicl.github.io"
+baseurl: "/temoignages-odeurs-fumees"
 locale: "fr-FR"
 
 # Thème
